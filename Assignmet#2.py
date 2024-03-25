@@ -13,11 +13,11 @@ def merge_sort(arr):
             else:
                 result.append(right[j])
                 j += 1
-            play_sound_effect()  # Simulate a sound effect at each merge step.
+            play_sound_effect()  
 
         result.extend(left[i:])
         result.extend(right[j:])
-        print("Merging elements:", left, "and", right, ">>", result)  # Printing merge step
+        print("Merging elements:", left, "and", right, ">>", result)  
         return result
 
     def merge_sort_rec(arr):
